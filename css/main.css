@@ -1,0 +1,951 @@
+/* 字体引入 */
+@font-face {
+	font-family: "HEITISJ";
+	src: url(../font/HEITISJ.TTF);
+}
+@font-face {
+	font-family: "FZHTJW";
+	src: url(../font/FZHTJW.TTF);
+}
+html,
+body,
+.wrap {
+	width: 100%;
+	height: 100%;
+}
+/* 预载页面 */
+.load {
+	/*display: none;*/
+	width: 100%;
+	height: 100%;
+	background: url(../images/load_bac.png) center no-repeat;	
+	background-size: 100% 100%;
+}
+.load_logo {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-top: 1.75rem;
+	padding-left: 4.37%;
+	height: 1.2rem;
+	width: 51.25%;
+	z-index: 999;
+	
+}
+.load h2 {
+	/*visibility:hidden;*/
+	padding-top: 12.83rem;
+	margin-bottom: 5.58rem;
+	font-family: "FZHTJW";
+	font-size: 1.16rem;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 0 30px #3567b9;
+}
+.bar {
+	/*display: none;*/
+	position: relative;
+	width: 77.5%;
+	height: 3.79rem;
+	margin: 0 auto;
+	background: url(../images/load_bar.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.bar span {
+	position: absolute;
+	left: -15.12%;
+	bottom: -1.87rem;
+	display: block;
+	width: 30.84%;
+	height: 4.2rem;
+	background: url(../images/load_point.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.load_pic {
+	display: none;
+	width: 100%;
+	height: 7.66rem;
+}
+.load_pic img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 箭头 */
+.down {
+	display: none;
+	position: fixed;
+	bottom: 1.66rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 7.3%;
+	height: 1.66rem;
+	background: url(../images/down.png) center no-repeat;
+	background-size: 100% 100%;
+	z-index: 999;
+	animation: fadeOutDown 2s infinite;
+	-webkit-animation: fadeOutDown 2s infinite;
+	-moz-animation: fadeOutDown 2s infinite;
+	-ms-animation: fadeOutDown 2s infinite;;
+}
+.allPage {
+	width: 100%;
+	height: 100%;
+}
+/*fst 页一 */
+.fst {
+	width: 100%;
+	height: 100%;
+	background: url(../images/fstpage_bac.png) center no-repeat;
+	background-size: 100% 100%;
+}
+/* 第一页文字描述 */
+.fst > p {
+	position: absolute;
+	top: 7.16rem;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-family: FZHTJW;
+	text-shadow: 0 0  1.2rem #3567b9;
+}
+.fst > p:nth-child(1) {
+	font-size: 1.16rem;
+}
+.fst > p:nth-child(2) {
+	font-size: 0.91rem;
+}
+.fst > p:nth-child(3) {
+	font-size: 1.16rem;
+}
+.fst > p:nth-child(4) {
+	font-size: 0.91rem;
+}
+/* 正面 show 图片 背景*/
+.showdetail-a {
+	/*display: none;*/
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 15.95rem;
+	width: 84.53%;
+	height: 19.37rem;
+	margin: 0 auto;
+	background: url(../images/fstpage_car.png) center no-repeat;
+	background-size: 100% 100%;
+}
+/* 顶部文本介绍 */
+.detail {
+	height: 7.08rem;
+	/*width: 60.46%;*/
+	width: 100%;
+	padding-top: 5.87rem;
+	/*background: url(../images/fst_text_bac.png)  center no-repeat;
+	background-size: 100% 100%;*/
+}
+.detail p {
+	display: none;
+	height: 7.08rem;
+	width: 67.18%;
+	padding-left: 2.65%;
+	line-height: 7.08rem;
+	text-align: left;
+	font-size: 1.25rem;
+	color: #fff;
+	font-family: FZHTJW;
+	font-weight: bold;
+	background: url(../images/fst_text_bac.png)  center no-repeat;
+	background-size: 100% 100%;
+	text-shadow: 0 0  1.2rem #3567b9;
+}
+/* 奇数p居右 */
+.detail p:nth-child(odd) {
+	float: right;
+}
+/* 偶数p 居左 */
+.detail p:nth-child(even) {
+	float: left;
+	margin-left: 12.65%;
+}
+/* 大灯效果  */
+.light {
+	display: none;
+	position: absolute;
+	top: 6.55rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 89%;
+	height: 3.08rem;
+	background: url(../images/light.png) center no-repeat;
+	background-size: 100% 100%;
+}
+/* 两个亮点分别移动 */
+.light span:nth-of-type(1) {
+	position: absolute;
+	display: block;
+	left: 5.88%;
+	bottom: -0.87rem;
+	width: 30.84%;
+	height: 4.2rem;
+	background: url(../images/load_point.png) center no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	/*animation: flyleft 0.5s ease-in infinite;*/
+}
+
+.light span:nth-of-type(2) {
+	position: absolute;
+	display: block;
+	right: 7.12%;
+	bottom: -0.87rem;
+	width: 30.84%;
+	height: 4.2rem;
+	background: url(../images/load_point.png) center no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	/*animation: flyright 0.5s ease-in infinite;*/
+}
+
+/* 鹰眼 */
+.eye  {
+	/*display: none;*/
+	position: absolute;
+	left: 75%;
+	top: 5.6rem;
+	width: 19.37%;
+	height: 3.2rem;
+	margin: 0 auto;
+	background: url(../images/eye.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.eye span {
+	position: absolute;
+	display: block;
+	right: 28.12%;
+	bottom: -1.67rem;
+	width: 123%;
+	height: 4.2rem;
+	background: url(../images/load_point.png) center no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+}
+/* 格栅 */
+.front {
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 6.6rem;
+	width: 60.46%;
+	height: 4.45rem;
+	margin: 0 auto;
+	background: url(../images/fst_front.png) center no-repeat;
+	background-size: 100% 100%;
+
+}
+.front span {
+	display: block;
+	position: absolute;
+	right: -0.88%;
+	bottom: 1.21rem;
+	width: 30.84%;
+	height: 4.2rem;
+	background: url(../images/load_point.png) center no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	/*animation: circle 3s linear 1 ;*/
+}
+
+/* 中网 */
+.front_inside {
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 9.3rem;
+	width: 38.125%;
+	height: 1.12rem;
+	margin: 0 auto;
+	background: url(../images/fst_front_inside.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.front_inside span {
+	display: block;
+	position: absolute;
+	left: -11.88%;
+	bottom: -1.29rem;
+	width: 30.84%;
+	height: 4.2rem;
+	background: url(../images/load_point.png) center no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	/*animation: wave 2s linear 1 1s;*/
+}
+
+
+/* 机盖 */
+.cover {
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 4rem;
+	width: 68.75%;
+	height: 3.2rem;
+	margin: 0 auto;
+	background: url(../images/fst_cover.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.cover span {
+	display: block;	
+	position: absolute;
+	left: -11.88%;
+	bottom: -0.29rem;
+	width: 30.84%;
+	height: 4.2rem;
+	background: url(../images/load_point.png) center no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	/*animation: cover_ani 2s linear 1 1s;*/
+}
+
+/* 侧面show 图片背景 */
+.showdetail-b {
+	display: none;
+	position: absolute;
+	/*left: 0;*/
+	/*right: 0;*/
+	top: 15.95rem;
+	width: 100%;
+	height: 12.12rem;
+	/*margin: 0 auto;*/
+	background: url(../images/fst_car_left.png) center no-repeat;   /*侧面照片*/
+	background-size: 100% 100%;
+}
+
+/* 车身 */
+.showdetail-b .side {
+	display: none;
+	position: absolute;
+	top: 3.1rem;
+	left: 4.2%;
+	width: 70.46%;
+	height: 2.5rem;
+	background: url(../images/fst_side.png) center no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+.side span {
+	position: absolute;
+	left: -12.88%;
+	bottom: -1.69rem;
+	width: 30.84%;
+	height: 4.2rem;
+	background: url(../images/load_point.png) center no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	/*animation: side_ani 3s linear 1 1s;*/
+}
+
+/* 车尾 顶 */
+.back-top {
+	display: none;
+	position: absolute;
+	right: 2.34%;
+	top: 1.62rem;
+	height: 1.95rem;
+	width: 41.87%;
+	background: url(../images/fst_back_top.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.back-top span {
+	position: absolute;
+	left: 4.12%;
+	bottom: -1.29rem;
+	width: 30.84%;
+	height: 4.2rem;
+	background: url(../images/load_point.png) center no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	/*animation: back-top_ani 2s linear 1 1s;*/
+}
+
+/* 车尾 中 */
+.back-middle {
+	display: none;
+	position: absolute;
+	right: 0.34%;
+	top: 2.72rem;
+	height: 3.29rem;
+	width: 40.93%;
+	background: url("../images/fst_back_middle.png") center no-repeat;
+	background-size: 100% 100%;
+}
+.back-middle span {
+	position: absolute;
+	left: 4.12%;
+	bottom: 0.43rem;
+	width: 30.84%;
+	height: 4.2rem;
+	background: url("../images/load_point.png") center no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	/*animation: back-middle_ani 3s linear 1 1s;*/
+}
+
+/* 车尾 底 */
+.back-bottom {
+	display: none;
+	position: absolute;
+	right: -0.66%;
+	top: 6.62rem;
+	height: 1.7rem;
+	width: 39.37%;
+	background: url(../images/fst_back_bottom.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.back-bottom span  {
+	position: absolute;
+	left: -10.88%;
+	bottom: -0.87rem;
+	width: 30.84%;
+	height: 4.2rem;
+	background: url("../images/load_point.png") center no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	/*animation: back-bottom_ani 2s linear 1 1s;*/
+}
+
+/* sec页 */
+.sec  {
+	width: 100%;
+	height: 100%;
+}
+/*车门触摸 页 */
+.sec .touch {
+	/*display: none;*/
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(../images/sec_bac1.png) center no-repeat;
+	background-size: 100% 100%;
+}
+/* 手 */
+.touch .hand {
+	position: absolute;
+	right: 22.5%;
+	bottom: 13.75rem;
+	width: 11.09%;
+	height: 3.45rem;
+	background: url(../images/sec_hand.png) center no-repeat;
+	background-size: 100% 100%;
+}
+/* 触摸点 */  /*需要设置动画*/
+.touch .sec-point {
+	position: absolute;
+	bottom: 15.1rem;
+	right: 26.3%;
+	width: 11.87%;
+	height: 3.62rem;
+	background: url(../images/sec_circle.png) center no-repeat;
+	background-size: 100% 100%;
+	animation: bounceOut 1s infinite;
+	-moz-animation: bounceOut 1s infinite;
+	-ms-animation: bounceOut 1s infinite;
+	-webkit-animation: bounceOut 1s infinite;
+}
+/* 内饰介绍页 */
+.innershow {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: url(../images/sec_bac2.png) center no-repeat;
+	background-size:100% 100%;
+}
+.innershow .sec-point {
+	position: absolute;
+	width: 11.87%;
+	height: 3.62rem;
+	background: url(../images/sec_circle.png) center no-repeat;
+	background-size: 100% 100%;
+}
+/* 每个圆点位置 */
+.innershow > .sec-point:nth-of-type(1) {
+	position: absolute;
+	bottom: 18.05rem;
+	right: 34.3%;
+}
+.innershow > .sec-point:nth-of-type(2) {
+	position: absolute;
+	bottom: 15.6rem;
+	right: 10.3%;
+}
+.innershow > .sec-point:nth-of-type(3) {
+	position: absolute;
+	bottom: 11.1rem;
+	right: 80.3%;
+}
+.innershow > .sec-point:nth-of-type(4) {
+	position: absolute;
+	bottom: 9.1rem;
+	right: 13.3%;
+}
+.innershow > .sec-point:nth-of-type(5) {
+	position: absolute;
+	bottom: 3.8rem;
+	right: 59.3%;
+}
+.innershow > .sec-point:nth-of-type(6) {
+	position: absolute;
+	bottom: 2.1rem;
+	right: 26.3%;
+}
+.innershow > .sec-point:nth-of-type(7) {
+	position: absolute;
+	bottom: 12.1rem;
+	right: 26.3%;
+}
+/* 点击圆点 对应具体介绍 */
+
+.innershow .sec-point:nth-of-type(1) .innerdetail {
+	display: none;
+	position: absolute;
+	bottom: -12.95rem;
+	right: -229.7%;
+	width: 508.93%;
+	height: 14.16rem;
+	background: url(../images/sec_detail1.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.innershow > .sec-point:nth-of-type(2) .innerdetail {
+	display: none;
+	position: absolute;
+	bottom: 4.45rem;
+	right: 45.3%;
+	width: 508.93%;
+	height: 14.16rem;
+	background: url(../images/sec_detail2.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.innershow .sec-point:nth-of-type(3) .innerdetail {
+	display: none;
+	position: absolute;
+	bottom: 2.05rem;
+	right: -443.7%;
+	width: 508.93%;
+	height: 14.16rem;
+	background: url(../images/sec_detail3.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.innershow .sec-point:nth-of-type(4) .innerdetail {
+	display: none;
+	position: absolute;
+	bottom: -0.9rem;
+	right: 83.3%;
+	width: 508.93%;
+	height: 14.16rem;
+	background: url(../images/sec_detail4.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.innershow .sec-point:nth-of-type(5) .innerdetail {
+	display: none;
+	position: absolute;
+	bottom: 1.85rem;
+	right: -456.7%;
+	width: 508.93%;
+	height: 14.16rem;
+	background: url(../images/sec_detail5.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.innershow .sec-point:nth-of-type(6) .innerdetail {
+	display: none;
+	position: absolute;
+	bottom: 2.95rem;
+	right: -178.7%;
+	width: 508.93%;
+	height: 14.16rem;
+	background: url(../images/sec_detail6.png) center no-repeat;
+	background-size: 100% 100%;
+}	
+/* 文字内容 */
+.innerdetail p {
+	overflow: hidden;
+	position: absolute;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: HEITISJ;
+	background: url(../images/fst_text_bac.png) center no-repeat;
+	background-size: 100% 100%;
+	text-shadow: 0 0 30px #3567b9;
+	
+}
+/* 分别对每段文字位置进行设置 */
+.innershow .sec-point:nth-of-type(1) .innerdetail p {
+	left: 7.17%;
+	bottom: 1.3rem;
+	width: 84.6%;
+}
+.innershow .sec-point:nth-of-type(2) .innerdetail p {
+	left: 7.17%;
+	bottom: 8.33rem;
+	width: 84.6%;
+}
+.innershow .sec-point:nth-of-type(3) .innerdetail p {
+	left: 14.17%;
+	bottom: 8.33rem;
+	width: 84.6%;
+}
+.innershow .sec-point:nth-of-type(4) .innerdetail p {
+	left: 7.17%;
+	bottom: 11.33rem;
+	width: 84.6%;
+}
+.innershow .sec-point:nth-of-type(5) .innerdetail p {
+	left: 18.17%;
+	bottom: 7.33rem;
+	width: 84.6%;
+}
+.innershow .sec-point:nth-of-type(6) .innerdetail p {
+	left: 15.17%;
+	bottom: 10.33rem;
+	width: 84.6%;
+}
+/* 档把操控页面 */
+/*此页在页面中间，点击手势时候展开出现，滑动后消失*/
+.handle {
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	background: url(../images/sec_bac3.png) center no-repeat;
+	background-size: 100% 100%;
+	z-index: 99;
+}
+.handle .hand {
+	position: absolute;
+	right: 22.5%;
+	bottom: 60%;
+	width: 11.09%;
+	height: 3.45rem;
+	background: url("../images/sec_hand.png") center no-repeat;
+	background-size: 100% 100%;
+	animation: slideOutDown 2s linear infinite;
+	-webkit-animation: slideOutDown 2s linear infinite;
+	-moz-animation: slideOutDown 2s linear infinite;
+	-ms-animation: slideOutDown 2s linear infinite;
+	animation: slideOutDown 2s linear infinite;
+}
+.handle .sec-point {
+	position: absolute;
+	bottom: 64%;
+	right: 26.3%;
+	width: 11.87%;
+	height: 3.62rem;
+	background: url(../images/sec_circle.png) center no-repeat;
+	background-size: 100% 100%;
+}
+/*文本提示*/
+.handle p {
+	position: absolute;
+	left: 40%;
+	top: 49%;
+	font-family: FZHTJW;
+	font-size: 1.16rem;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 0 0 30px #3567b9;
+	
+}
+
+/* 箭头 */
+.handle p::after {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: -10rem;
+	left: 40%;
+	width: 30%;
+	height: 22.04rem;
+	background: url(../images/sec_slidedown.png) center no-repeat;
+	background-size: 100% 100%;
+	animation: bounce_ani 5s linear infinite alternate;
+	-webkit-animation: bounce_ani 5s linear infinite alternate;
+	-ms-animation: bounce_ani 5s linear infinite alternate;
+	-moz-animation: bounce_ani 5s linear infinite alternate;
+}
+
+.third {
+	width: 100%;
+	height: 100%;
+	background: url(../images/third_bac.png);
+	background-size: 100% 100%;
+}
+.third .showcar {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -10.02rem;
+	margin-left: -50%;    /*初始状态*/
+	/*margin-left: -21%;*/  /*介绍车前部分*/
+	/*margin-left: -98%;*/ /*介绍车后部分*/
+	width: 100%;
+	height: 22.04rem;
+	background: url(../images/third_car.png) center no-repeat;
+	background-size: 100% 100%;
+}
+/* 第一部分介绍 */
+.third .num {
+	/*display: none;*/
+	position: absolute;
+	bottom: 5.83rem;
+	width: 100%;
+	height: 8.66rem;
+}
+.third .num p {
+	margin-bottom: 0.7rem;
+	font-size: 1rem;
+	font-family: HEITISJ;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 0 0 30px #3567b9;
+}
+.third .num p:first-child {
+	font-family: FZHTJW;
+	font-size: 1.16rem;
+	margin-bottom: 1.04rem;
+}
+.third .num p:first-child em {
+	font-size: 3.41rem;
+}
+
+/* 指向 */
+.num::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 18.84%;
+	bottom: 3.95rem;
+	width: 2.65%;
+	height: 6rem;
+	background: url(../images/third_up.png) center no-repeat;
+	background-size: 100% 100%;
+	/*animation: bounceInUp 2s infinite;*/
+	
+}
+/* 箭头 */
+.num::after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 22.25%;
+	bottom: 8.7rem;
+	width: 59.5%;
+	height: 1.12rem;
+	background: url(../images/third_direction.png) center no-repeat;
+	background-size: 100% 100%;
+	/*animation: rubberBand 2s linear infinite;*/
+}
+/* 第二部分介绍 */
+.car-front {
+		display: none;
+		position: absolute;
+		left: 5%;
+		top: 9rem;
+		width: 36.56%;
+		height: 17.12rem;
+		background: url(../images/third_left.png) bottom center no-repeat;
+		background-size: 100%;
+}
+.car-front::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 6.33rem;
+	width: 7.4%;
+	height: 6rem;
+	background: url(../images/third_down.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.car-front::after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: -1rem; 
+	top: 76%;
+	width: 89.78%;
+	height: 1.16rem;
+	background: url(../images/third_direction2.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.car-front p {
+	width: 202%;
+	font-family: HEITISJ;
+	font-size: 1.25rem;
+	color: #fff;
+	text-shadow: 0 0 30px #3567b9;
+}
+.car-front p:nth-child(3) {
+	font-size: 1rem;
+}
+
+/* 第三部分介绍 */
+.car-back  {
+	display: none;
+	position: absolute;
+	width: 92.03%;
+	height: 19.2rem;
+	right: 3.28%;
+	top: 10rem;
+	background: url(../images/third_right.png) bottom center no-repeat ;
+	background-size: 100% ;
+}
+.car-back p:nth-child(1) {
+	padding-left: 49.46%;
+	font-size: 1.25rem;
+	font-family: HEITISJ;
+	color: #fff;
+	text-shadow: 0 0 30px #3567B9;
+}
+.car-back p:nth-child(2) {
+	padding-left: 49.46%;
+	font-size: 1rem;
+	font-family: HEITISJ;
+	color: #fff;
+	text-shadow: 0 0 30px #3567B9;
+}
+.car-back::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 49.46%;
+	top: 5.33rem;
+	width: 3.08%;
+	height: 9.62rem;
+	background: url(../images/third_down2.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.avm {
+	display: none;
+	position: absolute;
+	left: 16.7%;
+	bottom: 4.16rem;
+	width: 56.4%;
+	height: 5rem;
+}
+.avm::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: -6.67rem;
+	width: 7.4%;
+	height: 6rem;
+	background: url(../images/third_down.png) center no-repeat;
+	background-size: 100% 100%;
+	
+}
+.avm p {
+	font-size: 1.25rem;
+	font-family: HEITISJ;
+	color: #fff;
+	text-shadow: 0 0 30px #3567B9;
+}
+.avm p:nth-child(3) {
+	font-size: 1rem;
+}
+
+.fourth {
+	width: 100%;
+	height: 100%;
+	background: url(../images/fourth_bac.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.fourth .vq {
+	position: absolute;
+	/*width: 79.53%;*/
+	bottom: 4.16rem;
+	height: 5.95rem;
+}
+.fourth .vq:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 67.81%;
+	top: -9.62rem;
+	width: 3.65%;
+	height: 9.62rem;
+	background: url(../images/third_down.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.fourth .vq h2, .fourth .vq p {
+	padding-left: 8.84%;
+}
+.fourth .vq h2 {
+	padding-left: 8.84%;
+	font-size: 1.66rem;
+	font-family: HEITISJ;
+	color: #fff;
+}
+.fourth .vq p {
+	padding-left: 8.84%;
+	padding-right: 22.97%;
+	font-size: 1rem;
+	font-family: HEITISJ;
+	color: #fff;
+}
+/* 第五页 */
+.fifth {
+	width: 100%;
+	height: 100%;
+	background: url(../images/fifth_bac.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.fifth p {
+	font-size: 1.16rem;
+	font-family: "HEITISJ";
+	color: #fff;
+	text-align: center;
+}
+.fifth p:nth-of-type(1) {
+	padding-top: 9.62rem;
+	margin-bottom: 1.66rem
+}
+.fifth p:nth-of-type(2) {
+	position: relative;
+	margin-bottom: 3.33rem;
+}
+.movecar {
+	width: 57.34%;
+	height: 10.41rem;
+	margin: 0 auto 5.33rem;
+	background: url(../images/fifth_car.png) center no-repeat;
+	background-size: 100% 100%;
+}
+
+.fifth p:nth-of-type(3) {
+	font-size: 0.91rem;
+}
+/* 媒体查询 针对小屏做调整*/
+@media all and (min-height: 480px) and (max-height: 560px) {
+	.touch .hand {
+		bottom: 10.75rem;
+	}
+	.touch .sec-point {
+		bottom: 12.1rem;
+	}
+	.innershow > .sec-point:nth-of-type(7) {
+		position: absolute;
+		bottom: 10.1rem;
+		right: 23.3%;
+	}
+}

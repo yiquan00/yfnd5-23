@@ -1,0 +1,1294 @@
+/*进度动画*/ 
+@keyframes move {
+	0% {
+		left: -15.12%;
+		bottom: -1.87rem;
+		opacity: 1;
+		
+	}
+	4.8% {
+		bottom: -1.15rem;
+		opacity: 1;
+		
+	}
+	14.98% {
+		bottom: -0.8rem;
+		opacity: 1;
+		
+	}
+	29% {
+		bottom: 0.99rem;
+		opacity: 1;
+		
+	}
+	50% {
+		bottom: 0.95rem;
+		opacity: 1;
+		
+	}
+	85% {
+		bottom: -0.8rem;
+		opacity: 1;
+	}
+	90% {
+		bottom: -0.81rem;
+	}
+	100% {
+		left: 84.88%;
+		bottom: -0.8rem;
+		opacity: 0;
+
+	}
+}
+
+@-webket-keyframes move {
+	0% {
+		left: -15.12%;
+		bottom: -1.87rem;
+		opacity: 1;
+		
+	}
+	4.8% {
+		bottom: -1.15rem;
+		opacity: 1;
+		
+	}
+	14.98% {
+		bottom: -0.8rem;
+		opacity: 1;
+		
+	}
+	29% {
+		bottom: 0.99rem;
+		opacity: 1;
+		
+	}
+	50% {
+		bottom: 0.95rem;
+		opacity: 1;
+		
+	}
+	85% {
+		bottom: -0.8rem;
+		opacity: 1;
+	}
+	90% {
+		bottom: -0.81rem;
+	}
+	100% {
+		left: 84.88%;
+		bottom: -0.8rem;
+		opacity: 0;
+
+	}
+}
+
+@-moz-keyframes move {
+	0% {
+		left: -15.12%;
+		bottom: -1.87rem;
+		opacity: 1;
+		
+	}
+	4.8% {
+		bottom: -1.15rem;
+		opacity: 1;
+		
+	}
+	14.98% {
+		bottom: -0.8rem;
+		opacity: 1;
+		
+	}
+	29% {
+		bottom: 0.99rem;
+		opacity: 1;
+		
+	}
+	50% {
+		bottom: 0.95rem;
+		opacity: 1;
+		
+	}
+	85% {
+		bottom: -0.8rem;
+		opacity: 1;
+	}
+	90% {
+		bottom: -0.81rem;
+	}
+	100% {
+		left: 84.88%;
+		bottom: -0.8rem;
+		opacity: 0;
+
+	}
+}
+
+@-ms-keyframes move {
+	0% {
+		left: -15.12%;
+		bottom: -1.87rem;
+		opacity: 1;
+		
+	}
+	4.8% {
+		bottom: -1.15rem;
+		opacity: 1;
+		
+	}
+	14.98% {
+		bottom: -0.8rem;
+		opacity: 1;
+		
+	}
+	29% {
+		bottom: 0.99rem;
+		opacity: 1;
+		
+	}
+	50% {
+		bottom: 0.95rem;
+		opacity: 1;
+		
+	}
+	85% {
+		bottom: -0.8rem;
+		opacity: 1;
+	}
+	90% {
+		bottom: -0.81rem;
+	}
+	100% {
+		left: 84.88%;
+		bottom: -0.8rem;
+		opacity: 0;
+
+	}
+}
+/* 第一页 各亮点动画 */
+@keyframes flyleft {
+	0% {
+		opacity: 1;
+		left: 5.88%;
+		bottom: -0.87rem;
+	}
+	100% {
+		opacity: 0.3;
+		left: -11.12%;
+		bottom: 1.13rem;
+	}
+}
+@-webkit-keyframes flyleft {
+	0% {
+		opacity: 1;
+		left: 5.88%;
+		bottom: -0.87rem;
+	}
+	100% {
+		left: -11.12%;
+		bottom: 1.13rem;
+		opacity: 0.3;
+	}
+}
+@-ms-keyframes flyleft {
+	0% {
+		opacity: 1;
+		left: 5.88%;
+		bottom: -0.87rem;
+	}
+	100% {
+		left: -11.12%;
+		bottom: 1.13rem;
+		opacity: 0.3;
+	}
+}
+@-moz-keyframes flyleft {
+	0% {
+		opacity: 1;
+		left: 5.88%;
+		bottom: -0.87rem;
+	}
+	100% {
+		left: -11.12%;
+		bottom: 1.13rem;
+		opacity: 0.3;
+	}
+}
+@keyframes flyright {
+	0% {
+		opacity: 1;
+		right: 7.12%;
+		bottom:-0.87rem;
+	}
+	100% {
+		right: -6.88%;
+		bottom: 1.13rem;
+		opacity: 0.3;
+	}
+}
+@-moz-keyframes flyright {
+	0% {
+		opacity: 1;
+		right: 7.12%;
+		bottom:-0.87rem;
+	}
+	100% {
+		right: -6.88%;
+		bottom: 1.13rem;
+		opacity: 0.3;
+	}
+}
+@-webkit-keyframes flyright {
+	0% {
+		opacity: 1;
+		right: 7.12%;
+		bottom:-0.87rem;
+	}
+	100% {
+		right: -6.88%;
+		bottom: 1.13rem;
+		opacity: 0.3;
+	}
+}
+@-ms-keyframes flyright {
+	0% {
+		opacity: 1;
+		right: 7.12%;
+		bottom:-0.87rem;
+	}
+	100% {
+		right: -6.88%;
+		bottom: 1.13rem;
+		opacity: 0.3;
+	}
+}
+/* 鹰眼动画 */
+@keyframes eye_ani {
+	0% {
+		opacity: 1;
+		right: 28.12%;
+		bottom: -1.67rem;
+	}
+	100% {
+		opacity: 0.5;
+		right: -51.88%;
+		bottom: 0.93rem;
+		opacity: 0.3;
+	}
+}
+@-webkit-keyframes eye_ani {
+	0% {
+		opacity: 1;
+		right: 28.12%;
+		bottom: -1.67rem;
+	}
+	100% {
+		opacity: 0.5;
+		right: -51.88%;
+		bottom: 0.93rem;
+		opacity: 0.3;
+	}
+}
+@-moz-keyframes eye_ani {
+	0% {
+		opacity: 1;
+		right: 28.12%;
+		bottom: -1.67rem;
+	}
+	100% {
+		opacity: 0.5;
+		right: -51.88%;
+		bottom: 0.93rem;
+		opacity: 0.3;
+	}
+}
+@-ms-keyframes eye_ani {
+	0% {
+		opacity: 1;
+		right: 28.12%;
+		bottom: -1.67rem;
+	}
+	100% {
+		opacity: 0.5;
+		right: -51.88%;
+		bottom: 0.93rem;
+		opacity: 0.3;
+	}
+}
+
+/* 栅格动画 */
+@keyframes circle {
+	0% {
+		opacity: 1;
+		right: -0.88%;
+		bottom: 1.21rem;
+		opacity: 1;
+	}
+	20% {
+		right: 30.12%;
+		bottom: 1.61rem;
+	}
+	40% {
+		right: 72.12%;
+	bottom: 1.21rem;
+	}
+	50% {
+		right: 72.12%;
+		bottom: -1.21rem;
+	}
+	70% {
+		right: 3.12%;
+		bottom: -1.5rem;
+	}
+	90% {
+		right: 0.1%;
+		bottom: -1.21rem;
+	}
+	100% {
+		right: 0.1%;
+		bottom: 1.21rem;
+		opacity: 0.5;
+	}
+}
+@-webkit-keyframes circle {
+	0% {
+		opacity: 1;
+		right: -0.88%;
+		bottom: 1.21rem;
+		opacity: 1;
+	}
+	20% {
+		right: 30.12%;
+		bottom: 1.61rem;
+	}
+	40% {
+		right: 72.12%;
+	bottom: 1.21rem;
+	}
+	50% {
+		right: 72.12%;
+		bottom: -1.21rem;
+	}
+	70% {
+		right: 3.12%;
+		bottom: -1.5rem;
+	}
+	90% {
+		right: 0.1%;
+		bottom: -1.21rem;
+	}
+	100% {
+		right: 0.1%;
+		bottom: 1.21rem;
+		opacity: 0.5;
+	}
+}
+@-ms-keyframes circle {
+	0% {
+		right: -0.88%;
+		bottom: 1.21rem;
+		opacity: 1;
+	}
+	20% {
+		right: 30.12%;
+		bottom: 1.61rem;
+	}
+	40% {
+		right: 72.12%;
+	bottom: 1.21rem;
+	}
+	50% {
+		right: 72.12%;
+		bottom: -1.21rem;
+	}
+	70% {
+		right: 3.12%;
+		bottom: -1.5rem;
+	}
+	90% {
+		right: 0.1%;
+		bottom: -1.21rem;
+	}
+	100% {
+		right: 0.1%;
+		bottom: 1.21rem;
+		opacity: 0.5;
+	}
+}
+@-moz-keyframes circle {
+	0% {
+		right: -0.88%;
+		bottom: 1.21rem;
+		opacity: 1;
+	}
+	20% {
+		right: 30.12%;
+		bottom: 1.61rem;
+	}
+	40% {
+		right: 72.12%;
+	bottom: 1.21rem;
+	}
+	50% {
+		right: 72.12%;
+		bottom: -1.21rem;
+	}
+	70% {
+		right: 3.12%;
+		bottom: -1.5rem;
+	}
+	90% {
+		right: 0.1%;
+		bottom: -1.21rem;
+	}
+	100% {
+		right: 0.1%;
+		bottom: 1.21rem;
+		opacity: 0.5;
+	}
+}
+/* 中网 */
+
+@keyframes wave {
+	0% {
+		opacity: 1;
+		left: -11.88%;
+		bottom: -1.29rem;
+	}
+	4% {
+		left: -7.88%;
+		bottom: -1.59rem;
+	}
+	8% {
+		left: -3.88%;
+		bottom: -1.29rem;
+	}
+	12% {
+		left: 1.88%;
+		bottom: -1.59rem;
+	}
+	16% {
+		left: 5.88%;
+		bottom: -1.29rem;
+	}
+	20% {
+		left: 5.88%;
+		bottom: -1.59rem;
+	}
+	24% {
+		left: 9.88%;
+		bottom: -1.29rem;
+	}
+	28% {
+		left: 13.88%;
+		bottom: -1.59rem;
+	}
+	32% {
+		left: 18.88%;
+		bottom: -1.29rem;
+	}
+	36% {
+		left: 23.88%;
+		bottom: -1.59rem;
+	}
+	40% {
+		left: 27.88%;
+		bottom: -1.29rem;
+	}
+	44% {
+		left: 31.88%;
+		bottom: -1.59rem;
+	}
+	48% {
+		left: 35.88%;
+		bottom: -1.29rem;
+	}
+	52% {
+		left: 39.88%;
+		bottom: -1.59rem;
+	}
+	56% {
+		left: 44.88%;
+		bottom: -1.29rem;
+	}
+	60% {
+		left: 49.88%;
+		bottom: -1.59rem;
+	}
+	64% {
+		left: 53.88%;
+		bottom: -1.29rem;
+	}
+	68% {
+		left: 57.88%;
+		bottom: -1.59rem;
+	}
+	72% {
+		left: 61.88%;
+		bottom: -1.29rem;
+	}
+	76% {
+		left: 65.88%;
+		bottom: -1.59rem;
+	}
+	80% {
+		left: 69.88%;
+		bottom: -1.29rem;
+	}
+	84% {
+		left: 73.88%;
+		bottom: -1.59rem;
+	}
+	88% {
+		left: 77.88%;
+		bottom: -1.29rem;
+	}
+	92% {
+		left: 80.88%;
+		bottom: -1.59rem;
+	}
+	96% {
+		left: 80.88%;
+		bottom: -1.59rem;
+	}
+	100% {
+		left: 80.88%;
+		bottom: -1.59rem;
+		opacity: 0.5;
+	}
+}
+
+@-webkit-keyframes wave {
+	0% {
+		opacity: 1;
+		left: -11.88%;
+		bottom: -1.29rem;
+	}
+	4% {
+		left: -7.88%;
+		bottom: -1.59rem;
+	}
+	8% {
+		left: -3.88%;
+		bottom: -1.29rem;
+	}
+	12% {
+		left: 1.88%;
+		bottom: -1.59rem;
+	}
+	16% {
+		left: 5.88%;
+		bottom: -1.29rem;
+	}
+	20% {
+		left: 5.88%;
+		bottom: -1.59rem;
+	}
+	24% {
+		left: 9.88%;
+		bottom: -1.29rem;
+	}
+	28% {
+		left: 13.88%;
+		bottom: -1.59rem;
+	}
+	32% {
+		left: 18.88%;
+		bottom: -1.29rem;
+	}
+	36% {
+		left: 23.88%;
+		bottom: -1.59rem;
+	}
+	40% {
+		left: 27.88%;
+		bottom: -1.29rem;
+	}
+	44% {
+		left: 31.88%;
+		bottom: -1.59rem;
+	}
+	48% {
+		left: 35.88%;
+		bottom: -1.29rem;
+	}
+	52% {
+		left: 39.88%;
+		bottom: -1.59rem;
+	}
+	56% {
+		left: 44.88%;
+		bottom: -1.29rem;
+	}
+	60% {
+		left: 49.88%;
+		bottom: -1.59rem;
+	}
+	64% {
+		left: 53.88%;
+		bottom: -1.29rem;
+	}
+	68% {
+		left: 57.88%;
+		bottom: -1.59rem;
+	}
+	72% {
+		left: 61.88%;
+		bottom: -1.29rem;
+	}
+	76% {
+		left: 65.88%;
+		bottom: -1.59rem;
+	}
+	80% {
+		left: 69.88%;
+		bottom: -1.29rem;
+	}
+	84% {
+		left: 73.88%;
+		bottom: -1.59rem;
+	}
+	88% {
+		left: 77.88%;
+		bottom: -1.29rem;
+	}
+	92% {
+		left: 80.88%;
+		bottom: -1.59rem;
+	}
+	96% {
+		left: 80.88%;
+		bottom: -1.59rem;
+	}
+	100% {
+		left: 80.88%;
+		bottom: -1.59rem;
+		opacity: 0.5;
+	}
+	
+}
+
+@-moz-keyframes wave {
+	0% {
+		opacity: 1;
+		left: -11.88%;
+		bottom: -1.29rem;
+	}
+	4% {
+		left: -7.88%;
+		bottom: -1.59rem;
+	}
+	8% {
+		left: -3.88%;
+		bottom: -1.29rem;
+	}
+	12% {
+		left: 1.88%;
+		bottom: -1.59rem;
+	}
+	16% {
+		left: 5.88%;
+		bottom: -1.29rem;
+	}
+	20% {
+		left: 5.88%;
+		bottom: -1.59rem;
+	}
+	24% {
+		left: 9.88%;
+		bottom: -1.29rem;
+	}
+	28% {
+		left: 13.88%;
+		bottom: -1.59rem;
+	}
+	32% {
+		left: 18.88%;
+		bottom: -1.29rem;
+	}
+	36% {
+		left: 23.88%;
+		bottom: -1.59rem;
+	}
+	40% {
+		left: 27.88%;
+		bottom: -1.29rem;
+	}
+	44% {
+		left: 31.88%;
+		bottom: -1.59rem;
+	}
+	48% {
+		left: 35.88%;
+		bottom: -1.29rem;
+	}
+	52% {
+		left: 39.88%;
+		bottom: -1.59rem;
+	}
+	56% {
+		left: 44.88%;
+		bottom: -1.29rem;
+	}
+	60% {
+		left: 49.88%;
+		bottom: -1.59rem;
+	}
+	64% {
+		left: 53.88%;
+		bottom: -1.29rem;
+	}
+	68% {
+		left: 57.88%;
+		bottom: -1.59rem;
+	}
+	72% {
+		left: 61.88%;
+		bottom: -1.29rem;
+	}
+	76% {
+		left: 65.88%;
+		bottom: -1.59rem;
+	}
+	80% {
+		left: 69.88%;
+		bottom: -1.29rem;
+	}
+	84% {
+		left: 73.88%;
+		bottom: -1.59rem;
+	}
+	88% {
+		left: 77.88%;
+		bottom: -1.29rem;
+	}
+	92% {
+		left: 80.88%;
+		bottom: -1.59rem;
+	}
+	96% {
+		left: 80.88%;
+		bottom: -1.59rem;
+	}
+	100% {
+		left: 80.88%;
+		bottom: -1.59rem;
+		opacity: 0.5;
+	}
+	
+}
+
+@-ms-keyframes wave {
+	0% {
+		opacity: 1;
+		left: -11.88%;
+		bottom: -1.29rem;
+	}
+	4% {
+		left: -7.88%;
+		bottom: -1.59rem;
+	}
+	8% {
+		left: -3.88%;
+		bottom: -1.29rem;
+	}
+	12% {
+		left: 1.88%;
+		bottom: -1.59rem;
+	}
+	16% {
+		left: 5.88%;
+		bottom: -1.29rem;
+	}
+	20% {
+		left: 5.88%;
+		bottom: -1.59rem;
+	}
+	24% {
+		left: 9.88%;
+		bottom: -1.29rem;
+	}
+	28% {
+		left: 13.88%;
+		bottom: -1.59rem;
+	}
+	32% {
+		left: 18.88%;
+		bottom: -1.29rem;
+	}
+	36% {
+		left: 23.88%;
+		bottom: -1.59rem;
+	}
+	40% {
+		left: 27.88%;
+		bottom: -1.29rem;
+	}
+	44% {
+		left: 31.88%;
+		bottom: -1.59rem;
+	}
+	48% {
+		left: 35.88%;
+		bottom: -1.29rem;
+	}
+	52% {
+		left: 39.88%;
+		bottom: -1.59rem;
+	}
+	56% {
+		left: 44.88%;
+		bottom: -1.29rem;
+	}
+	60% {
+		left: 49.88%;
+		bottom: -1.59rem;
+	}
+	64% {
+		left: 53.88%;
+		bottom: -1.29rem;
+	}
+	68% {
+		left: 57.88%;
+		bottom: -1.59rem;
+	}
+	72% {
+		left: 61.88%;
+		bottom: -1.29rem;
+	}
+	76% {
+		left: 65.88%;
+		bottom: -1.59rem;
+	}
+	80% {
+		left: 69.88%;
+		bottom: -1.29rem;
+	}
+	84% {
+		left: 73.88%;
+		bottom: -1.59rem;
+	}
+	88% {
+		left: 77.88%;
+		bottom: -1.29rem;
+	}
+	92% {
+		left: 80.88%;
+		bottom: -1.59rem;
+	}
+	96% {
+		left: 80.88%;
+		bottom: -1.59rem;
+	}
+	100% {
+		left: 80.88%;
+		bottom: -1.59rem;
+		opacity: 0.5;
+	}
+}
+
+/* 机盖 */
+@keyframes cover_ani {
+	0% {
+		opacity: 1;
+		left: -11.88%;
+		bottom: -0.29rem;
+	}
+	20% {
+		left: -1.88%;
+		bottom: -1.59rem;}
+	60% {
+		left: 31.12%;
+		bottom: -0.69rem;
+	}
+	80% {
+		left: 64.12%;
+		bottom: -1.69rem;
+	}
+	100% {
+		left: 75.12%;
+		bottom: -0.69rem;
+		opacity: 0.5;
+	}
+}
+
+@-webkit-keyframes cover_ani {
+	0% {
+		opacity: 1;
+		left: -11.88%;
+		bottom: -0.29rem;
+	}
+	20% {
+		left: -1.88%;
+		bottom: -1.59rem;
+	}
+	60% {
+		left: 31.12%;
+		bottom: -0.69rem;
+	}
+	80% {
+		left: 64.12%;
+		bottom: -1.69rem;
+	}
+	100% {
+		left: 75.12%;
+		bottom: -0.69rem;
+		opacity: 0.5;
+	}
+}
+
+@-moz-keyframes cover_ani {
+		0% {
+			opacity: 1;
+			left: -11.88%;
+			bottom: -0.29rem;
+				}
+		20% {
+			left: -1.88%;
+			bottom: -1.59rem;}
+		60% {
+			left: 31.12%;
+			bottom: -0.69rem;
+		}
+		80% {
+			left: 64.12%;
+			bottom: -1.69rem;
+		}
+		100% {
+			left: 75.12%;
+			bottom: -0.69rem;
+			opacity: 0.5;
+		}
+}
+
+@-ms-keyframes cover_ani {
+		0% {
+			opacity: 1;
+			left: -11.88%;
+			bottom: -0.29rem;
+				}
+		20% {
+			left: -1.88%;
+			bottom: -1.59rem;}
+		60% {
+			left: 31.12%;
+			bottom: -0.69rem;
+		}
+		80% {
+			left: 64.12%;
+			bottom: -1.69rem;
+		}
+		100% {
+			left: 75.12%;
+			bottom: -0.69rem;
+			opacity: 0.5;
+		}
+}
+
+/* 车身 */
+@keyframes side_ani {
+	0% {
+		opacity: 1;
+		left: -12.88%;
+		bottom: -1.69rem;
+	}
+	10% {
+		left: 2.12%;
+		bottom: -0.9rem;
+	}
+	50% {
+		left: 33.12%;
+		bottom: -0.8rem;
+	}
+	80% {
+		left: 54.12%;
+		bottom: -0.1rem;
+	}
+	100% {
+		left: 73.12%;
+		bottom: -0.49rem;
+		opacity: 0;
+	}
+}
+@-webkit-keyframes side_ani {
+	0% {
+		opacity: 1;
+		left: -12.88%;
+		bottom: -1.69rem;
+	}
+	10% {
+		left: 2.12%;
+		bottom: -0.9rem;
+	}
+	50% {
+		left: 33.12%;
+		bottom: -0.8rem;
+	}
+	80% {
+		left: 54.12%;
+		bottom: -0.1rem;
+	}
+	100% {
+		opacity: 0;
+		left: 73.12%;
+		bottom: -0.49rem;
+	}
+}
+@-moz-keyframes side_ani {
+	0% {
+		opacity: 1;
+		left: -12.88%;
+		bottom: -1.69rem;
+	}
+	10% {
+		left: 2.12%;
+		bottom: -0.9rem;
+	}
+	50% {
+		left: 33.12%;
+		bottom: -0.8rem;
+	}
+	80% {
+		left: 54.12%;
+		bottom: -0.1rem;
+	}
+	100% {
+		left: 73.12%;
+		bottom: -0.49rem;
+		opacity: 0;
+	}
+}
+@-ms-keyframes side_ani {
+	0% {
+		opacity: 1;
+		left: -12.88%;
+		bottom: -1.69rem;
+	}
+	10% {
+		left: 2.12%;
+		bottom: -0.9rem;
+	}
+	50% {
+		left: 33.12%;
+		bottom: -0.8rem;
+	}
+	80% {
+		left: 54.12%;
+		bottom: -0.1rem;
+	}
+	100% {
+		left: 73.12%;
+		bottom: -0.49rem;
+		opacity: 0;
+	}
+}
+/* 车尾 顶 */
+@keyframes back-top_ani {
+	0% {
+		opacity: 1;
+		left: 4.12%;
+		bottom: -1.19rem;
+	}
+	50% {
+		left: 47.12%;
+		bottom: -0.79rem;
+	}
+	100% {
+		left: 76.12%;
+	bottom: -1.49rem;
+	}
+}
+@-webkit-keyframes back-top_ani {
+	0% {
+		left: 4.12%;
+		bottom: -1.19rem;
+	}
+	50% {
+		left: 47.12%;
+		bottom: -0.79rem;
+	}
+	100% {
+		left: 76.12%;
+		bottom: -1.49rem;
+		opacity: 0;
+	}
+}
+@-moz-keyframes back-top_ani {
+	0% {
+		opacity: 1;
+		left: 4.12%;
+		bottom: -1.19rem;
+	}
+	50% {
+		left: 47.12%;
+		bottom: -0.79rem;
+	}
+	100% {
+		left: 76.12%;
+		bottom: -1.49rem;
+		opacity: 0;
+	}
+}
+@-ms-keyframes back-top_ani {
+	0% {
+		opacity: 1;
+		left: 4.12%;
+		bottom: -1.19rem;
+	}
+	50% {
+		left: 47.12%;
+		bottom: -0.79rem;
+	}
+	100% {
+		left: 76.12%;
+		bottom: -1.49rem;
+		opacity: 0;
+	}
+}
+/* 车尾 中*/
+@keyframes back-middle_ani {
+	0% {
+		opacity: 1;
+		left: 4.12%;
+		bottom: 0.43rem;
+	}
+	50% {
+		left: 71.12%;
+		bottom: 0.43rem;
+	}
+	51%{
+		left: 14.12%;
+	bottom: -1.27rem;
+	}
+	100% {
+		opacity: 0;
+		left: 62.12%;
+		bottom: -1.27rem;
+	}
+}
+@-webkit-keyframes back-middle_ani {
+	0% {
+		opacity: 1;
+		left: 4.12%;
+		bottom: 0.43rem;
+	}
+	50% {
+		left: 71.12%;
+		bottom: 0.43rem;
+	}
+	51%{
+		left: 14.12%;
+	bottom: -1.27rem;
+	}
+	100% {
+		opacity: 0;
+		left: 62.12%;
+		bottom: -1.27rem;
+	}
+}
+@-moz-keyframes back-middle_ani {
+	0% {
+		opacity: 1;
+		left: 4.12%;
+		bottom: 0.43rem;
+	}
+	50% {
+		left: 71.12%;
+		bottom: 0.43rem;
+	}
+	51%{
+		left: 14.12%;
+	bottom: -1.27rem;
+	}
+	100% {
+		opacity: 0;
+		left: 62.12%;
+		bottom: -1.27rem;
+	}
+}
+@-ms-keyframes back-middle_ani {
+	0% {
+		opacity: 1;
+		left: 4.12%;
+		bottom: 0.43rem;
+	}
+	50% {
+		left: 71.12%;
+		bottom: 0.43rem;
+	}
+	51%{
+		left: 14.12%;
+		bottom: -1.27rem;
+	}
+	100% {
+		left: 62.12%;
+		bottom: -1.27rem;
+		opacity: 0;
+	}
+}
+/* 车尾 底 */
+@keyframes back-bottom_ani {
+	0% {
+		opacity: 1;
+		left: -10.88%;
+		bottom: -0.87rem;
+	}
+	10% {
+		left: -1.88%;
+		bottom: -1.37rem;
+	}
+	100% {
+		left: 76.12%;
+		bottom: -1.37rem;
+		opacity: 0;
+	}
+}
+@-webkit-keyframes back-bottom_ani {
+	0% {
+		opacity: 1;
+		left: -10.88%;
+		bottom: -0.87rem;
+	}
+	10% {
+		left: -1.88%;
+		bottom: -1.37rem;
+	}
+	100% {
+		left: 76.12%;
+		bottom: -1.37rem;
+		opacity: 0;
+	}
+}
+@-moz-keyframes back-bottom_ani {
+	0% {
+		opacity: 1;
+		left: -10.88%;
+		bottom: -0.87rem;
+	}
+	10% {
+		left: -1.88%;
+		bottom: -1.37rem;
+	}
+	100% {
+		left: 76.12%;
+		bottom: -1.37rem;
+		opacity: 0;
+	}
+}
+@-ms-keyframes back-bottom_ani {
+	0% {
+		opacity: 1;
+		left: -10.88%;
+		bottom: -0.87rem;
+	}
+	10% {
+		left: -1.88%;
+		bottom: -1.37rem;
+	}
+	100% {
+		left: 76.12%;
+		bottom: -1.37rem;
+		opacity: 0;
+	}
+}
